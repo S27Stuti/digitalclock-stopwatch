@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# ⏰ Digital Clock & Stopwatch App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive ReactJS application that combines a **Digital Clock** and **Stopwatch** in a single interface. The application displays the current time in real-time and provides stopwatch functionality with Start, Pause, and Reset controls.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+https://brilliant-croissant-5fbf60.netlify.app/
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Real-time Digital Clock
+* Live time updates every second
+* Stopwatch functionality
+* Start, Pause, and Reset controls
+* Responsive design for Desktop, Tablet, and Mobile
+* Modern and clean UI
+* Built using React Hooks
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+* ReactJS
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Hooks (`useState`, `useEffect`, `useRef`)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Project Structure
 
-### `npm run build`
+```bash
+src/
+│
+├── App.js
+├── App.css
+├── index.js
+└── index.css
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone <repository-url>
+```
 
-### `npm run eject`
+2. Navigate to the project folder
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd digital-clock-stopwatch
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Open your browser
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+http://localhost:3000
+```
 
-### Code Splitting
+## 🎯 Functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Digital Clock
 
-### Analyzing the Bundle Size
+* Displays the current system time.
+* Updates automatically every second.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Stopwatch
 
-### Making a Progressive Web App
+* Start timer
+* Pause timer
+* Reset timer
+* Displays time in HH:MM:SS format
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📱 Responsive Design
 
-### Advanced Configuration
+The application is optimized for:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Desktop
+* Laptop
+* Tablet
+* Mobile Devices
 
-### Deployment
+## 📸 Screenshot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Add your project screenshot here.
 
-### `npm run build` fails to minify
+## 👩‍💻 Developer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Stuti Shah**
+
+Frontend Developer | ReactJS Enthusiast
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.
